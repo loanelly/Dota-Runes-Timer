@@ -29,7 +29,6 @@ class TimerApp:
         tk.Label(top, text="Прошло 1:40, 3:40...\nПора действовать!", pady=10).pack()
         tk.Button(top, text="OK", command=top.destroy).pack()
         
-        self.play_sound()
 
     def run_logic(self):
         start_time = time.time()
