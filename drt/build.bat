@@ -1,0 +1,1 @@
+pip install pyinstaller && pyinstaller --noconsole --onefile timer_app.py
